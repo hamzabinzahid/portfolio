@@ -15,7 +15,7 @@ if ( isset( $_POST[ 'n' ] ) && isset( $_POST[ 'e' ] ) && isset( $_POST[ 'm' ] ) 
     if ( mail( $to, $subject, $message, $headers ) ) {
         echo 'success';
     } else {
-        echo 'The server failed to send the message. Please try again later.';
+        echo 'We are under some updates. Please try again after sometime';
     }
 }
 ?>
