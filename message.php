@@ -15,7 +15,7 @@ if ( isset( $_POST[ 'n' ] ) && isset( $_POST[ 'e' ] ) && isset( $_POST[ 'm' ] ) 
     if ( mail( $to, $subject, $message, $headers ) ) {
         echo 'success';
     } else {
-        echo 'We are under some updates. Please try again after sometime';
+        echo 'We are under some updates. Please try again after sometime or you can direclty contact me via email. My email is right in your left tab<br><br>';
     }
 }
 ?>
